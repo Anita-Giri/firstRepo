@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="com.jug.qa.SIGTest.MMSRegistrationlinkTest"></class>
+			<class name="com.jug.qa.SIGTest.MMSLoginPageTest"></class>
+		     <class name="com.jug.qa.SIGTest.IdeasSigTabTest"></class>
+		
+	        <class name="com.jug.qa.SIGTest.MMSProjectPageTest"></class>
+			<class name="com.jug.qa.SIGTest.MMSGrantsfundingpageTest"></class>
+			<class name="com.jug.qa.SIGTest.MMSConsultancyPageTest"></class>
+			<class name="com.jug.qa.SIGTest.MMSHackathonsPageTest"></class>
+			<class name="com.jug.qa.SIGTest.GramTownPageTest"></class>
+			<class name="com.jug.qa.SIGTest.MyProfilePageTest"></class>
+			<class name="com.jug.qa.SIGTest.SIGLogoutTest"></class>
+			
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

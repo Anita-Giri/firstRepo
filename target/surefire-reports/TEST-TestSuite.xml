@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="41" failures="10" name="TestSuite" time="588.167" errors="0" skipped="6">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="Jugaadfunda"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\Admin\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="df7a8f82853bedb2"/>
+    <property name="POM_ARTIFACTID" value="testjugaad"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="testjugaad"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\PROGRA~1\Java\jre7\BIN_~1"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="user.name" value="Admin"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="Jugaadfunda"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Jugaadfunda/6/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#6"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Admin\AppData\Local"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="Admin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="Java_Home" value="&quot;C:\Program Files\Java\jdk1.8.0_111\bin&quot;"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="6"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Users\Admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Jugaadfunda/6/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="configsetroot" value="C:\Windows\ConfigSetRoot"/>
+    <property name="TMP" value="C:\Users\Admin\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Jugaadfunda/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\Admin"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="ADMIN-PC"/>
+    <property name="POM_GROUPID" value="com.jugaadfunda"/>
+    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-Jugaadfunda-6"/>
+    <property name="JENKINS_SERVER_COOKIE" value="df7a8f82853bedb2"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\Admin"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre7\bin;C:\Program Files\Java\jdk1.8.0_111\bin;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\Admin\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\Admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.class.path" value="C:\Users\Admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Users\Admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.5.2.jar;C:\Users\Admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\Admin\.jenkins\war\WEB-INF\lib\remoting-3.23.jar C:\Users\Admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 58677"/>
+    <property name="Path" value="C:\Program Files\Git\cmd;C:\Program Files\Java\jre7\bin;C:\Program Files\Java\jdk1.8.0_111\bin"/>
+    <property name="NO_XILINX_DATA_LICENSE" value="HIDDEN"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 94 Stepping 3, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\Admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="=D:" value="D:\jenkins"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\Admin\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\Admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Jugaadfunda/6/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="D:\Automation Testing\testjugaad"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Jugaadfunda/"/>
+    <property name="LOGONSERVER" value="\\ADMIN-PC"/>
+    <property name="USERDOMAIN" value="Admin-PC"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Users\Admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="6"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="5e03"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\Admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="C:\Users\Admin\.jenkins\workspace\Jugaadfunda"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="easyplussdk" value="&quot;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin&quot;"/>
+  </properties>
+  <testcase classname="com.jug.qa.IncubationTest.MMIncConsultancyPageTest" name="setUp" time="77.873">
+    <failure message="Element is not visible
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11000, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 783d4da3-71cf-4e9d-a8cb-b6f644d61393" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: Element is not visible
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11000, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 783d4da3-71cf-4e9d-a8cb-b6f644d61393
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:371)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:393)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.jug.qa.pages.MMIncLogindropdownPage.login(MMIncLogindropdownPage.java:43)
+	at com.jug.qa.IncubationTest.MMIncConsultancyPageTest.setUp(MMIncConsultancyPageTest.java:34)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@16b4a017
+Before navigating to: &apos;http://www.jugaadfunda.in/&apos;
+Navigated to:&apos;http://www.jugaadfunda.in/&apos;
+Before navigating to: &apos;http://www.jugaadfunda.in/STBI/sig-login.jsp&apos;
+Navigated to:&apos;http://www.jugaadfunda.in/STBI/sig-login.jsp&apos;
+Trying to find Element By : By.xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a
+Found Element By : By.xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a
+Trying to click on: [[FirefoxDriver: firefox on XP (783d4da3-71cf-4e9d-a8cb-b6f644d61393)] -&gt; xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a]
+Clicked on: [[FirefoxDriver: firefox on XP (783d4da3-71cf-4e9d-a8cb-b6f644d61393)] -&gt; xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a]
+Trying to find Element By : By.linkText: Login as Incubation
+Found Element By : By.linkText: Login as Incubation
+Trying to click on: [[FirefoxDriver: firefox on XP (783d4da3-71cf-4e9d-a8cb-b6f644d61393)] -&gt; link text: Login as Incubation]
+Clicked on: [[FirefoxDriver: firefox on XP (783d4da3-71cf-4e9d-a8cb-b6f644d61393)] -&gt; link text: Login as Incubation]
+Trying to find Element By : By.xpath: //*[@id=&apos;email&apos;]
+Found Element By : By.xpath: //*[@id=&apos;email&apos;]
+Exception occured: org.openqa.selenium.ElementNotInteractableException: Element is not visible
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11000, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 783d4da3-71cf-4e9d-a8cb-b6f644d61393
+</system-out>
+    <system-err>1531224425641	geckodriver	INFO	geckodriver 0.20.1
+1531224425666	geckodriver	INFO	Listening on 127.0.0.1:15047
+1531224426695	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile.vkQeti5kEw9V&quot;
+1531224440444	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:269 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:739 &lt; startup()@resource://gre/modules/AddonManager.jsm:906 &lt; startup()@resource://gre/modules/AddonManager.jsm:3090 &lt; observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1531224444257	Marionette	INFO	Enabled via --marionette
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+[Child 4884] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4884] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531224479519	Marionette	INFO	Listening on port 58701
+1531224480671	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531224480874	Marionette	DEBUG	Register listener.js for window 4294967297
+Jul 10, 2018 5:38:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1531224482730	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;about:blank&quot;
+1531224483540	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;about:blank&quot;
+1531224483540	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;about:blank&quot;
+1531224487254	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224490194	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224491046	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224491379	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224491379	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224493023	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp&quot;
+1531224494033	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp&quot;
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 17: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 37: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 68: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 98: TypeError: $(...).tabs is not a function
+1531224495618	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1531224495869	Marionette	DEBUG	Received DOM event &quot;popstate&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-incubation&quot;
+1531224496343	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+</system-err>
+  </testcase>
+  <testcase classname="com.jug.qa.IncubationTest.MMIncConsultancyPageTest" name="IncubationConsultancytitle" time="77.875">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.jug.qa.IncubationTest.MMIncConsultancyPageTest" name="teardown" time="77.875">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.jug.qa.SIGTest.MMSProjectPageTest" name="verifyProjectTitle" time="5.921"/>
+  <testcase classname="com.jug.qa.IncubationTest.MMIncGrantsfundingPageTest" name="Incubationgrantsttitle" time="5.797"/>
+  <testcase classname="com.jug.qa.SIGTest.MMSRegistrationlinkTest" name="sigRegisterlinkclick" time="20.245"/>
+  <testcase classname="com.jug.qa.uplift.upliftMyOpportunityPageTest" name="stateche" time="1.676"/>
+  <testcase classname="com.jug.qa.IncubationTest.MMIncHackathonPageTest" name="IncubationHackathonttitle" time="5.762"/>
+  <testcase classname="com.jug.qa.SIGTest.MyProfilePageTest" name="leaderbutton" time="15.751"/>
+  <testcase classname="com.jug.qa.uplift.upliftMyProfilePageTest" name="grampa" time="6.928">
+    <failure message="No modal dialog is currently open
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11988, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 428bca9f-68e1-4360-b1ef-78219d47cf9d" type="org.openqa.selenium.NoAlertPresentException">org.openqa.selenium.NoAlertPresentException: No modal dialog is currently open
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11988, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 428bca9f-68e1-4360-b1ef-78219d47cf9d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:923)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.alert(EventFiringWebDriver.java:653)
+	at com.jug.qa.pages.upliftMyProfilePage.upliftgram(upliftMyProfilePage.java:74)
+	at com.jug.qa.uplift.upliftMyProfilePageTest.grampa(upliftMyProfilePageTest.java:62)
+</failure>
+    <system-out>1--------4
+1500.0
+rice
+farming
+20000.0
+Before navigating to: &apos;http://www.jugaadfunda.in/&apos;
+Navigated to:&apos;http://www.jugaadfunda.in/&apos;
+Before navigating to: &apos;http://www.jugaadfunda.in/STBI/uplift-login.jsp&apos;
+Navigated to:&apos;http://www.jugaadfunda.in/STBI/uplift-login.jsp&apos;
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //*[@id=&apos;login&apos;]/div/form/div[4]/button[1]
+Found Element By : By.xpath: //*[@id=&apos;login&apos;]/div/form/div[4]/button[1]
+Trying to click on: [[FirefoxDriver: firefox on XP (428bca9f-68e1-4360-b1ef-78219d47cf9d)] -&gt; xpath: //*[@id=&apos;login&apos;]/div/form/div[4]/button[1]]
+Clicked on: [[FirefoxDriver: firefox on XP (428bca9f-68e1-4360-b1ef-78219d47cf9d)] -&gt; xpath: //*[@id=&apos;login&apos;]/div/form/div[4]/button[1]]
+Trying to find Element By : By.xpath: //*[@id=&apos;profilemy&apos;]
+Found Element By : By.xpath: //*[@id=&apos;profilemy&apos;]
+Trying to click on: [[FirefoxDriver: firefox on XP (428bca9f-68e1-4360-b1ef-78219d47cf9d)] -&gt; xpath: //*[@id=&apos;profilemy&apos;]]
+Clicked on: [[FirefoxDriver: firefox on XP (428bca9f-68e1-4360-b1ef-78219d47cf9d)] -&gt; xpath: //*[@id=&apos;profilemy&apos;]]
+Trying to find Element By : By.xpath: //*[@id=&apos;panchayatgram&apos;]
+Found Element By : By.xpath: //*[@id=&apos;panchayatgram&apos;]
+Trying to click on: [[FirefoxDriver: firefox on XP (428bca9f-68e1-4360-b1ef-78219d47cf9d)] -&gt; xpath: //*[@id=&apos;panchayatgram&apos;]]
+Clicked on: [[FirefoxDriver: firefox on XP (428bca9f-68e1-4360-b1ef-78219d47cf9d)] -&gt; xpath: //*[@id=&apos;panchayatgram&apos;]]
+Trying to find Element By : By.xpath: //*[@id=&apos;personal-details&apos;]/div/div/div[1]/div/div[1]/h4/a/b
+Found Element By : By.xpath: //*[@id=&apos;personal-details&apos;]/div/div/div[1]/div/div[1]/h4/a/b
+Trying to click on: [[FirefoxDriver: firefox on XP (428bca9f-68e1-4360-b1ef-78219d47cf9d)] -&gt; xpath: //*[@id=&apos;personal-details&apos;]/div/div/div[1]/div/div[1]/h4/a/b]
+Clicked on: [[FirefoxDriver: firefox on XP (428bca9f-68e1-4360-b1ef-78219d47cf9d)] -&gt; xpath: //*[@id=&apos;personal-details&apos;]/div/div/div[1]/div/div[1]/h4/a/b]
+Trying to find Element By : By.xpath: //*[@id=&apos;areapanchayat&apos;]
+Found Element By : By.xpath: //*[@id=&apos;areapanchayat&apos;]
+Trying to find Element By : By.xpath: //*[@id=&apos;majorcrop&apos;]
+Found Element By : By.xpath: //*[@id=&apos;majorcrop&apos;]
+Trying to find Element By : By.xpath: //*[@id=&apos;majorsorce&apos;]
+Found Element By : By.xpath: //*[@id=&apos;majorsorce&apos;]
+Trying to find Element By : By.xpath: //*[@id=&apos;population&apos;]
+Found Element By : By.xpath: //*[@id=&apos;population&apos;]
+Trying to find Element By : By.xpath: //*[@id=&apos;personals&apos;]/div/form/div[5]/button
+Found Element By : By.xpath: //*[@id=&apos;personals&apos;]/div/form/div[5]/button
+Trying to click on: [[FirefoxDriver: firefox on XP (428bca9f-68e1-4360-b1ef-78219d47cf9d)] -&gt; xpath: //*[@id=&apos;personals&apos;]/div/form/div[5]/button]
+Clicked on: [[FirefoxDriver: firefox on XP (428bca9f-68e1-4360-b1ef-78219d47cf9d)] -&gt; xpath: //*[@id=&apos;personals&apos;]/div/form/div[5]/button]
+</system-out>
+    <system-err>1531224723407	Marionette	INFO	New connections will no longer be accepted
+[Parent 13900] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7820] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13900] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10132] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10132] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1531224725580	geckodriver	INFO	geckodriver 0.20.1
+1531224725590	geckodriver	INFO	Listening on 127.0.0.1:44291
+1531224726107	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile.FO3mExkfFW3Q&quot;
+1531224731490	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:269 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:739 &lt; startup()@resource://gre/modules/AddonManager.jsm:906 &lt; startup()@resource://gre/modules/AddonManager.jsm:3090 &lt; observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1531224732345	Marionette	INFO	Enabled via --marionette
+[Parent 11988] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531224735235	Marionette	INFO	Listening on port 59518
+1531224735529	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531224735570	Marionette	DEBUG	Register listener.js for window 6442450945
+Jul 10, 2018 5:42:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1531224735630	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;about:blank&quot;
+1531224736197	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;about:blank&quot;
+1531224736198	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;about:blank&quot;
+1531224737781	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224738308	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224738347	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224738635	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224738636	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224739296	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/STBI/uplift-login.jsp&quot;
+JavaScript error: https://cdn.jsdelivr.net/npm/places.js@1.4.15, line 2: Error: Algolia Places: &apos;container&apos; must point to an &lt;input&gt; element.
+
+See https://community.algolia.com/places/documentation.html#api-options-container
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 17: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 37: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 68: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 98: TypeError: $(...).tabs is not a function
+1531224739854	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/STBI/uplift-login.jsp&quot;
+1531224740029	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;http://www.jugaadfunda.in/STBI/uplift-login.jsp&quot;
+1531224741954	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;http://www.jugaadfunda.in/STBI/uplift-login.jsp&quot;
+1531224741958	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;http://www.jugaadfunda.in/STBI/uplift-login.jsp&quot;
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 3: ReferenceError: places is not defined
+1531224743059	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/STBI/uplift-dashboard.jsp&quot;
+1531224743309	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/STBI/uplift-dashboard.jsp&quot;
+1531224743607	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1531224748911	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1531224749189	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1531224750209	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;http://www.jugaadfunda.in/STBI/uplift-dashboard.jsp&quot;
+1531224750489	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;http://www.jugaadfunda.in/STBI/uplift-dashboard.jsp&quot;
+1531224750494	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;http://www.jugaadfunda.in/STBI/uplift-dashboard.jsp&quot;
+1531224750516	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/STBI/Upliftaddgp&quot;
+1531224750530	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/STBI/Upliftaddgp&quot;
+</system-err>
+  </testcase>
+  <testcase classname="com.jug.qa.IncubationTest.MMIncIdeasFromIncubationPageTest" name="Incubationideas" time="0.304"/>
+  <testcase classname="com.jug.qa.SIGTest.SIGLogoutTest" name="loggoutt" time="0.592"/>
+  <testcase classname="com.jug.qa.uplift.upliftpostmychallengesPageTest" name="postchallenges" time="6.593"/>
+  <testcase classname="com.jug.qa.IncubationTest.MMIncLoginlinkPageTest" name="loginTest" time="2.934">
+    <failure message="Element is not visible
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10644, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b0946392-adbe-48f2-8c0b-3ac1bd74d230" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: Element is not visible
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10644, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b0946392-adbe-48f2-8c0b-3ac1bd74d230
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:371)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:393)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.jug.qa.pages.MMIncLogindropdownPage.login(MMIncLogindropdownPage.java:44)
+	at com.jug.qa.IncubationTest.MMIncLoginlinkPageTest.loginTest(MMIncLoginlinkPageTest.java:43)
+</failure>
+    <system-out>Before navigating to: &apos;http://www.jugaadfunda.in/&apos;
+Navigated to:&apos;http://www.jugaadfunda.in/&apos;
+Before navigating to: &apos;http://www.jugaadfunda.in/STBI/sig-login.jsp&apos;
+Navigated to:&apos;http://www.jugaadfunda.in/STBI/sig-login.jsp&apos;
+Trying to find Element By : By.xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a
+Found Element By : By.xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a
+Trying to click on: [[FirefoxDriver: firefox on XP (b0946392-adbe-48f2-8c0b-3ac1bd74d230)] -&gt; xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a]
+Clicked on: [[FirefoxDriver: firefox on XP (b0946392-adbe-48f2-8c0b-3ac1bd74d230)] -&gt; xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a]
+Trying to find Element By : By.linkText: Login as Incubation
+Found Element By : By.linkText: Login as Incubation
+Trying to click on: [[FirefoxDriver: firefox on XP (b0946392-adbe-48f2-8c0b-3ac1bd74d230)] -&gt; link text: Login as Incubation]
+Clicked on: [[FirefoxDriver: firefox on XP (b0946392-adbe-48f2-8c0b-3ac1bd74d230)] -&gt; link text: Login as Incubation]
+Trying to find Element By : By.xpath: //*[@id=&apos;email&apos;]
+Found Element By : By.xpath: //*[@id=&apos;email&apos;]
+Trying to find Element By : By.xpath: //*[@id=&apos;password&apos;]
+Found Element By : By.xpath: //*[@id=&apos;password&apos;]
+Exception occured: org.openqa.selenium.ElementNotInteractableException: Element is not visible
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10644, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b0946392-adbe-48f2-8c0b-3ac1bd74d230
+</system-out>
+    <system-err>1531224821146	geckodriver	INFO	geckodriver 0.20.1
+1531224821158	geckodriver	INFO	Listening on 127.0.0.1:20728
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 3: ReferenceError: places is not defined
+1531224821564	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile.S5faC6gAe8ys&quot;
+JavaScript error: http://www.jugaadfunda.in/STBI/uplift-dashboard.jsp, line 3: ReferenceError: places is not defined
+1531224824757	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:269 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:739 &lt; startup()@resource://gre/modules/AddonManager.jsm:906 &lt; startup()@resource://gre/modules/AddonManager.jsm:3090 &lt; observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1531224825720	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Failed to connect GPU process
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+[Parent 10644] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15308] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15308] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531224837905	Marionette	INFO	Listening on port 59921
+1531224838306	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Could not get a DXGI adapter
+1531224840231	Marionette	DEBUG	Register listener.js for window 4294967297
+Jul 10, 2018 5:44:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1531224840615	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;about:blank&quot;
+1531224841222	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;about:blank&quot;
+1531224841222	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;about:blank&quot;
+1531224844429	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224845024	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224845067	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224845358	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224845359	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224846064	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp&quot;
+[GFX1-]: Could not get a DXGI adapter
+1531224846806	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp&quot;
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 17: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 37: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 68: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 98: TypeError: $(...).tabs is not a function
+1531224847082	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1531224847105	Marionette	DEBUG	Received DOM event &quot;popstate&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-incubation&quot;
+1531224847450	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+</system-err>
+  </testcase>
+  <testcase classname="com.jug.qa.UpgradeTest.UpgradeDashboardPageTest" name="upgradedash" time="0.324"/>
+  <testcase classname="com.jug.qa.uplift.upliftViewResponsePageTest" name="upliftviewprofile" time="0.069">
+    <failure message="Unable to locate element: //*[@id=&apos;view-sig-record&apos;]/div/table/tbody/tr/td[5]/a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4892, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d74234b7-7122-49d2-a21e-6b6bb592df91
+*** Element info: {Using=xpath, value=//*[@id=&apos;view-sig-record&apos;]/div/table/tbody/tr/td[5]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;view-sig-record&apos;]/div/table/tbody/tr/td[5]/a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4892, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d74234b7-7122-49d2-a21e-6b6bb592df91
+*** Element info: {Using=xpath, value=//*[@id=&apos;view-sig-record&apos;]/div/table/tbody/tr/td[5]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:186)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.jug.qa.pages.upliftViewResponsePage.upliftviewprofile(upliftViewResponsePage.java:42)
+	at com.jug.qa.uplift.upliftViewResponsePageTest.upliftviewprofile(upliftViewResponsePageTest.java:54)
+</failure>
+    <system-out>Before navigating to: &apos;http://www.jugaadfunda.in/&apos;
+Navigated to:&apos;http://www.jugaadfunda.in/&apos;
+Before navigating to: &apos;http://www.jugaadfunda.in/STBI/uplift-login.jsp&apos;
+Navigated to:&apos;http://www.jugaadfunda.in/STBI/uplift-login.jsp&apos;
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //*[@id=&apos;login&apos;]/div/form/div[4]/button[1]
+Found Element By : By.xpath: //*[@id=&apos;login&apos;]/div/form/div[4]/button[1]
+Trying to click on: [[FirefoxDriver: firefox on XP (d74234b7-7122-49d2-a21e-6b6bb592df91)] -&gt; xpath: //*[@id=&apos;login&apos;]/div/form/div[4]/button[1]]
+Clicked on: [[FirefoxDriver: firefox on XP (d74234b7-7122-49d2-a21e-6b6bb592df91)] -&gt; xpath: //*[@id=&apos;login&apos;]/div/form/div[4]/button[1]]
+Trying to find Element By : By.xpath: //*[@id=&apos;ChallengeTable&apos;]/tbody[3]/tr/td[5]/p/a[1]
+Found Element By : By.xpath: //*[@id=&apos;ChallengeTable&apos;]/tbody[3]/tr/td[5]/p/a[1]
+Trying to click on: [[FirefoxDriver: firefox on XP (d74234b7-7122-49d2-a21e-6b6bb592df91)] -&gt; xpath: //*[@id=&apos;ChallengeTable&apos;]/tbody[3]/tr/td[5]/p/a[1]]
+Clicked on: [[FirefoxDriver: firefox on XP (d74234b7-7122-49d2-a21e-6b6bb592df91)] -&gt; xpath: //*[@id=&apos;ChallengeTable&apos;]/tbody[3]/tr/td[5]/p/a[1]]
+Trying to find Element By : By.xpath: //*[@id=&apos;view-sig-record&apos;]/div/table/tbody/tr/td[5]/a
+Exception occured: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;view-sig-record&apos;]/div/table/tbody/tr/td[5]/a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4892, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d74234b7-7122-49d2-a21e-6b6bb592df91
+*** Element info: {Using=xpath, value=//*[@id=&apos;view-sig-record&apos;]/div/table/tbody/tr/td[5]/a}
+</system-out>
+    <system-err>1531224874157	Marionette	INFO	New connections will no longer be accepted
+[Child 13264] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13264] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1531224880449	geckodriver	INFO	geckodriver 0.20.1
+1531224880464	geckodriver	INFO	Listening on 127.0.0.1:30912
+1531224880870	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile.tazUbF8hB3kV&quot;
+1531224887553	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:269 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:739 &lt; startup()@resource://gre/modules/AddonManager.jsm:906 &lt; startup()@resource://gre/modules/AddonManager.jsm:3090 &lt; observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1531224888798	Marionette	INFO	Enabled via --marionette
+[Parent 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5908] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5908] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531224894246	Marionette	INFO	Listening on port 60111
+1531224894608	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531224894648	Marionette	DEBUG	Register listener.js for window 4294967297
+Jul 10, 2018 5:44:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1531224894690	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;about:blank&quot;
+1531224895284	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;about:blank&quot;
+1531224895285	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;about:blank&quot;
+1531224897121	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224898084	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224898332	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224898681	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224898681	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531224899753	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/STBI/uplift-login.jsp&quot;
+JavaScript error: https://cdn.jsdelivr.net/npm/places.js@1.4.15, line 2: Error: Algolia Places: &apos;container&apos; must point to an &lt;input&gt; element.
+
+See https://community.algolia.com/places/documentation.html#api-options-container
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 17: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 37: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 68: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 98: TypeError: $(...).tabs is not a function
+1531224900374	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/STBI/uplift-login.jsp&quot;
+1531224900960	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;http://www.jugaadfunda.in/STBI/uplift-login.jsp&quot;
+1531224905503	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;http://www.jugaadfunda.in/STBI/uplift-login.jsp&quot;
+1531224905509	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;http://www.jugaadfunda.in/STBI/uplift-login.jsp&quot;
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 3: ReferenceError: places is not defined
+1531224906766	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/STBI/uplift-dashboard.jsp&quot;
+1531224906892	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/STBI/uplift-dashboard.jsp&quot;
+1531224907688	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+</system-err>
+  </testcase>
+  <testcase classname="com.jug.qa.IncubationTest.MMIncMyProfilePageTest" name="Incubationprofileincubateehead" time="15.557"/>
+  <testcase classname="com.jug.qa.UpgradeTest.UpgradeEventPageTest" name="viewall" time="2.206"/>
+  <testcase classname="com.jug.qa.IncubationTest.MMIncProjectPageTest" name="Incubationprojecttitle" time="7.628"/>
+  <testcase classname="com.jug.qa.UpgradeTest.UpgradeLoginPageTest" name="setUp" time="32.526">
+    <failure message="java.net.ConnectException: Failed to connect to localhost/127.0.0.1:30555
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/127.0.0.1:30555
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)
+	at com.jug.qa.base.TestBase.initialization(TestBase.java:43)
+	at com.jug.qa.UpgradeTest.UpgradeLoginPageTest.setUp(UpgradeLoginPageTest.java:28)
+Caused by: java.net.ConnectException: Failed to connect to localhost/127.0.0.1:30555
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:158)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:256)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:134)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:113)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	... 45 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:125)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:238)
+	... 67 more
+</failure>
+    <system-err>1531225032766	Marionette	INFO	New connections will no longer be accepted
+[Child 9492] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js, line 6: Error: [$injector:modulerr] http://errors.angularjs.org/1.4.2/$injector/modulerr?p0=sigDashboard&amp;p1=%5B%24injector%3Amodulerr%5D%20http%3A%2F%2Ferrors.angularjs.org%2F1.4.2%2F%24injector%2Fmodulerr%3Fp0%3Dui.bootstrap%26p1%3D%255B%2524injector%253Anomod%255D%2520http%253A%252F%252Ferrors.angularjs.org%252F1.4.2%252F%2524injector%252Fnomod%253Fp0%253Dui.bootstrap%250AJ%252F%253C%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.2%252Fangular.min.js%253A6%253A416%250Ade%252F%253C%252F%253C%252F%253C%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.2%252Fangular.min.js%253A24%253A66%250Aa%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.2%252Fangular.min.js%253A23%253A109%250Ade%252F%253C%252F%253C%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.2%252Fangular.min.js%253A23%253A352%250Ag%252F%253C%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.2%252Fangular.min.js%253A37%253A381%250Am%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.2%252Fangular.min.js%253A7%253A320%250Ag%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.2%252Fangular.min.js%253A37%253A229%250Ag%252F%253C%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.2%252Fangular.min.js%253A37%253A398%250Am%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.2%252Fangular.min.js%253A7%253A320%250Ag%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.2%252Fangular.min.js%253A37%253A229%250Aeb%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.2%252Fangular.min.js%253A40%253A503%250Ad%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.2%252Fangular.min.js%253A19%253A339%250AAc%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.2%252Fangular.min.js%253A20%253A151%250AZd%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.2%252Fangular.min.js%253A18%253A464%250A%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.2%252Fangular.min.js%253A289%253A428%250Aj%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F3.2.1%252Fjquery.min.js%253A2%253A29997%250Ag%252F%253C%252Fk%253C%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F3.2.1%252Fjquery.min.js%253A2%253A30313%250A%0AJ%2F%3C%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.2%2Fangular.min.js%3A6%3A416%0Ag%2F%3C%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.2%2Fangular.min.js%3A38%3A154%0Am%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.2%2Fangular.min.js%3A7%3A320%0Ag%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.2%2Fangular.min.js%3A37%3A229%0Ag%2F%3C%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.2%2Fangular.min.js%3A37%3A398%0Am%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.2%2Fangular.min.js%3A7%3A320%0Ag%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.2%2Fangular.min.js%3A37%3A229%0Aeb%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.2%2Fangular.min.js%3A40%3A503%0Ad%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.2%2Fangular.min.js%3A19%3A339%0AAc%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.2%2Fangular.min.js%3A20%3A151%0AZd%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.2%2Fangular.min.js%3A18%3A464%0A%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.2%2Fangular.min.js%3A289%3A428%0Aj%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F3.2.1%2Fjquery.min.js%3A2%3A29997%0Ag%2F%3C%2Fk%3C%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F3.2.1%2Fjquery.min.js%3A2%3A30313%0A
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 3: ReferenceError: places is not defined
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 17: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 37: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 68: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 98: TypeError: $(...).tabs is not a function
+[Child 13036] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Jul 10, 2018 5:47:16 PM org.openqa.selenium.os.OsProcess destroy
+SEVERE: Unable to kill process java.lang.ProcessImpl@49a0fe14
+</system-err>
+  </testcase>
+  <testcase classname="com.jug.qa.UpgradeTest.UpgradeLoginPageTest" name="loginTest" time="32.528">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.jug.qa.UpgradeTest.UpgradeLoginPageTest" name="teardown" time="32.528">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.jug.qa.InstituteTest.MMInstConsultancyPageTest" name="instconsultancyview" time="0.251">
+    <failure message="Unable to locate element: //*[@id=&apos;ConcultancyTable&apos;]/tbody[1]/tr/td[6]/p/a[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14836, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ea6e930d-5221-4465-9dcd-2bcbfda9b0d9
+*** Element info: {Using=xpath, value=//*[@id=&apos;ConcultancyTable&apos;]/tbody[1]/tr/td[6]/p/a[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;ConcultancyTable&apos;]/tbody[1]/tr/td[6]/p/a[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14836, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ea6e930d-5221-4465-9dcd-2bcbfda9b0d9
+*** Element info: {Using=xpath, value=//*[@id=&apos;ConcultancyTable&apos;]/tbody[1]/tr/td[6]/p/a[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:186)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.jug.qa.pages.MMInstConsultancyPage.InstituteConsultancyview(MMInstConsultancyPage.java:24)
+	at com.jug.qa.InstituteTest.MMInstConsultancyPageTest.instconsultancyview(MMInstConsultancyPageTest.java:48)
+</failure>
+    <system-out>Before navigating to: &apos;http://www.jugaadfunda.in/&apos;
+Navigated to:&apos;http://www.jugaadfunda.in/&apos;
+Before navigating to: &apos;http://www.jugaadfunda.in/STBI/sig-login.jsp&apos;
+Navigated to:&apos;http://www.jugaadfunda.in/STBI/sig-login.jsp&apos;
+Trying to find Element By : By.xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a
+Found Element By : By.xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a
+Trying to click on: [[FirefoxDriver: firefox on XP (ea6e930d-5221-4465-9dcd-2bcbfda9b0d9)] -&gt; xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a]
+Clicked on: [[FirefoxDriver: firefox on XP (ea6e930d-5221-4465-9dcd-2bcbfda9b0d9)] -&gt; xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a]
+Trying to find Element By : By.linkText: Login as Institute
+Found Element By : By.linkText: Login as Institute
+Trying to click on: [[FirefoxDriver: firefox on XP (ea6e930d-5221-4465-9dcd-2bcbfda9b0d9)] -&gt; link text: Login as Institute]
+Clicked on: [[FirefoxDriver: firefox on XP (ea6e930d-5221-4465-9dcd-2bcbfda9b0d9)] -&gt; link text: Login as Institute]
+Trying to find Element By : By.xpath: //*[@id=&apos;email&apos;]
+Found Element By : By.xpath: //*[@id=&apos;email&apos;]
+Trying to find Element By : By.xpath: //*[@id=&apos;password&apos;]
+Found Element By : By.xpath: //*[@id=&apos;password&apos;]
+Trying to find Element By : By.xpath: //*[@id=&apos;login-institute&apos;]/div/form/div[4]/button[1]
+Found Element By : By.xpath: //*[@id=&apos;login-institute&apos;]/div/form/div[4]/button[1]
+Trying to click on: [[FirefoxDriver: firefox on XP (ea6e930d-5221-4465-9dcd-2bcbfda9b0d9)] -&gt; xpath: //*[@id=&apos;login-institute&apos;]/div/form/div[4]/button[1]]
+Clicked on: [[FirefoxDriver: firefox on XP (ea6e930d-5221-4465-9dcd-2bcbfda9b0d9)] -&gt; xpath: //*[@id=&apos;login-institute&apos;]/div/form/div[4]/button[1]]
+Trying to find Element By : By.xpath: //*[@id=&apos;myopportunitys&apos;]
+Found Element By : By.xpath: //*[@id=&apos;myopportunitys&apos;]
+Trying to click on: [[FirefoxDriver: firefox on XP (ea6e930d-5221-4465-9dcd-2bcbfda9b0d9)] -&gt; xpath: //*[@id=&apos;myopportunitys&apos;]]
+Clicked on: [[FirefoxDriver: firefox on XP (ea6e930d-5221-4465-9dcd-2bcbfda9b0d9)] -&gt; xpath: //*[@id=&apos;myopportunitys&apos;]]
+Trying to find Element By : By.xpath: //*[@id=&apos;consultancys&apos;]
+Found Element By : By.xpath: //*[@id=&apos;consultancys&apos;]
+Trying to click on: [[FirefoxDriver: firefox on XP (ea6e930d-5221-4465-9dcd-2bcbfda9b0d9)] -&gt; xpath: //*[@id=&apos;consultancys&apos;]]
+Clicked on: [[FirefoxDriver: firefox on XP (ea6e930d-5221-4465-9dcd-2bcbfda9b0d9)] -&gt; xpath: //*[@id=&apos;consultancys&apos;]]
+Trying to find Element By : By.xpath: //*[@id=&apos;ConcultancyTable&apos;]/tbody[1]/tr/td[6]/p/a[1]
+Exception occured: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;ConcultancyTable&apos;]/tbody[1]/tr/td[6]/p/a[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14836, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ea6e930d-5221-4465-9dcd-2bcbfda9b0d9
+*** Element info: {Using=xpath, value=//*[@id=&apos;ConcultancyTable&apos;]/tbody[1]/tr/td[6]/p/a[1]}
+</system-out>
+    <system-err>1531225061275	geckodriver	INFO	geckodriver 0.20.1
+1531225061654	geckodriver	INFO	Listening on 127.0.0.1:30555
+1531225061667	geckodriver	INFO	geckodriver 0.20.1
+1531225061685	geckodriver	INFO	Listening on 127.0.0.1:13343
+1531225062023	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile.4etekBcPkvIr&quot;
+1531225062599	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:269 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:739 &lt; startup()@resource://gre/modules/AddonManager.jsm:906 &lt; startup()@resource://gre/modules/AddonManager.jsm:3090 &lt; observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1531225063865	Marionette	INFO	Enabled via --marionette
+1531225068259	Marionette	INFO	Listening on port 60584
+1531225069354	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531225069403	Marionette	DEBUG	Register listener.js for window 4294967297
+Jul 10, 2018 5:47:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1531225069625	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;about:blank&quot;
+1531225070211	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;about:blank&quot;
+1531225070212	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;about:blank&quot;
+1531225072640	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225074439	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225074812	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225075104	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225075105	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225075812	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp&quot;
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 17: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 37: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 68: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 98: TypeError: $(...).tabs is not a function
+1531225076520	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp&quot;
+1531225076769	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1531225076811	Marionette	DEBUG	Received DOM event &quot;popstate&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-institute&quot;
+1531225077022	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1531225081983	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-institute&quot;
+1531225083597	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-institute&quot;
+1531225083598	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-institute&quot;
+1531225085217	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/STBI/institute-dashboard.jsp&quot;
+1531225085457	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/STBI/institute-dashboard.jsp&quot;
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 3: ReferenceError: places is not defined
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 17: TypeError: $(...).datepicker is not a function
+1531225085527	Marionette	DEBUG	Received DOM event &quot;popstate&quot; for &quot;http://www.jugaadfunda.in/STBI/institute-dashboard.jsp#/opportinity&quot;
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 37: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 68: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 98: TypeError: $(...).tabs is not a function
+1531225085746	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1531225090611	Marionette	DEBUG	Received DOM event &quot;popstate&quot; for &quot;http://www.jugaadfunda.in/STBI/institute-dashboard.jsp#/consultancy&quot;
+1531225090829	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+</system-err>
+  </testcase>
+  <testcase classname="com.jug.qa.InstituteTest.MMInstGrantsPageTest" name="instGrantsview" time="5.153">
+    <failure message="Unable to locate element: //*[@id=&apos;GrandFundingTable&apos;]/tbody[1]/tr/td[5]/p/a[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5432, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b93194a9-e480-47fe-8224-bc017b7af091
+*** Element info: {Using=xpath, value=//*[@id=&apos;GrandFundingTable&apos;]/tbody[1]/tr/td[5]/p/a[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;GrandFundingTable&apos;]/tbody[1]/tr/td[5]/p/a[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5432, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b93194a9-e480-47fe-8224-bc017b7af091
+*** Element info: {Using=xpath, value=//*[@id=&apos;GrandFundingTable&apos;]/tbody[1]/tr/td[5]/p/a[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:186)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.jug.qa.pages.MMInstGrantsPage.InstituteGrantsview(MMInstGrantsPage.java:25)
+	at com.jug.qa.InstituteTest.MMInstGrantsPageTest.instGrantsview(MMInstGrantsPageTest.java:48)
+</failure>
+    <system-out>Before navigating to: &apos;http://www.jugaadfunda.in/&apos;
+Navigated to:&apos;http://www.jugaadfunda.in/&apos;
+Before navigating to: &apos;http://www.jugaadfunda.in/STBI/sig-login.jsp&apos;
+Navigated to:&apos;http://www.jugaadfunda.in/STBI/sig-login.jsp&apos;
+Trying to find Element By : By.xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a
+Found Element By : By.xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a
+Trying to click on: [[FirefoxDriver: firefox on XP (b93194a9-e480-47fe-8224-bc017b7af091)] -&gt; xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a]
+Clicked on: [[FirefoxDriver: firefox on XP (b93194a9-e480-47fe-8224-bc017b7af091)] -&gt; xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a]
+Trying to find Element By : By.linkText: Login as Institute
+Found Element By : By.linkText: Login as Institute
+Trying to click on: [[FirefoxDriver: firefox on XP (b93194a9-e480-47fe-8224-bc017b7af091)] -&gt; link text: Login as Institute]
+Clicked on: [[FirefoxDriver: firefox on XP (b93194a9-e480-47fe-8224-bc017b7af091)] -&gt; link text: Login as Institute]
+Trying to find Element By : By.xpath: //*[@id=&apos;email&apos;]
+Found Element By : By.xpath: //*[@id=&apos;email&apos;]
+Trying to find Element By : By.xpath: //*[@id=&apos;password&apos;]
+Found Element By : By.xpath: //*[@id=&apos;password&apos;]
+Trying to find Element By : By.xpath: //*[@id=&apos;login-institute&apos;]/div/form/div[4]/button[1]
+Found Element By : By.xpath: //*[@id=&apos;login-institute&apos;]/div/form/div[4]/button[1]
+Trying to click on: [[FirefoxDriver: firefox on XP (b93194a9-e480-47fe-8224-bc017b7af091)] -&gt; xpath: //*[@id=&apos;login-institute&apos;]/div/form/div[4]/button[1]]
+Clicked on: [[FirefoxDriver: firefox on XP (b93194a9-e480-47fe-8224-bc017b7af091)] -&gt; xpath: //*[@id=&apos;login-institute&apos;]/div/form/div[4]/button[1]]
+Trying to find Element By : By.xpath: //*[@id=&apos;myopportunitys&apos;]
+Found Element By : By.xpath: //*[@id=&apos;myopportunitys&apos;]
+Trying to click on: [[FirefoxDriver: firefox on XP (b93194a9-e480-47fe-8224-bc017b7af091)] -&gt; xpath: //*[@id=&apos;myopportunitys&apos;]]
+Clicked on: [[FirefoxDriver: firefox on XP (b93194a9-e480-47fe-8224-bc017b7af091)] -&gt; xpath: //*[@id=&apos;myopportunitys&apos;]]
+Trying to find Element By : By.xpath: //*[@id=&apos;granfunding&apos;]
+Found Element By : By.xpath: //*[@id=&apos;granfunding&apos;]
+Trying to click on: [[FirefoxDriver: firefox on XP (b93194a9-e480-47fe-8224-bc017b7af091)] -&gt; xpath: //*[@id=&apos;granfunding&apos;]]
+Clicked on: [[FirefoxDriver: firefox on XP (b93194a9-e480-47fe-8224-bc017b7af091)] -&gt; xpath: //*[@id=&apos;granfunding&apos;]]
+Trying to find Element By : By.xpath: //*[@id=&apos;GrandFundingTable&apos;]/tbody[1]/tr/td[5]/p/a[1]
+Exception occured: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;GrandFundingTable&apos;]/tbody[1]/tr/td[5]/p/a[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5432, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b93194a9-e480-47fe-8224-bc017b7af091
+*** Element info: {Using=xpath, value=//*[@id=&apos;GrandFundingTable&apos;]/tbody[1]/tr/td[5]/p/a[1]}
+</system-out>
+    <system-err>1531225090874	Marionette	INFO	New connections will no longer be accepted
+[Child 12900] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11920] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1531225093310	geckodriver	INFO	geckodriver 0.20.1
+1531225093320	geckodriver	INFO	Listening on 127.0.0.1:34984
+1531225093674	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile.o3JNCqLJqlvu&quot;
+1531225100196	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:269 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:739 &lt; startup()@resource://gre/modules/AddonManager.jsm:906 &lt; startup()@resource://gre/modules/AddonManager.jsm:3090 &lt; observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1531225101053	Marionette	INFO	Enabled via --marionette
+[Child 14900] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531225104914	Marionette	INFO	Listening on port 60684
+1531225105249	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531225105281	Marionette	DEBUG	Register listener.js for window 6442450945
+Jul 10, 2018 5:48:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1531225105321	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;about:blank&quot;
+1531225106017	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;about:blank&quot;
+1531225106018	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;about:blank&quot;
+1531225107643	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225108223	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225108253	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225108534	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225108534	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225109230	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp&quot;
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 17: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 37: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 68: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 98: TypeError: $(...).tabs is not a function
+1531225110962	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp&quot;
+1531225111225	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1531225111286	Marionette	DEBUG	Received DOM event &quot;popstate&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-institute&quot;
+1531225111503	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1531225116494	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-institute&quot;
+1531225118292	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-institute&quot;
+1531225118295	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-institute&quot;
+1531225118947	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/STBI/institute-dashboard.jsp&quot;
+1531225119284	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/STBI/institute-dashboard.jsp&quot;
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 3: ReferenceError: places is not defined
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 17: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 37: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 68: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 98: TypeError: $(...).tabs is not a function
+1531225119365	Marionette	DEBUG	Received DOM event &quot;popstate&quot; for &quot;http://www.jugaadfunda.in/STBI/institute-dashboard.jsp#/opportinity&quot;
+1531225119584	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1531225124451	Marionette	DEBUG	Received DOM event &quot;popstate&quot; for &quot;http://www.jugaadfunda.in/STBI/institute-dashboard.jsp#/grand-funding&quot;
+1531225124669	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+</system-err>
+  </testcase>
+  <testcase classname="com.jug.qa.InstituteTest.MMInstHackathonPageTest" name="instconsultancyview" time="5.13">
+    <failure message="Unable to locate element: //*[@id=&apos;HackathonTable&apos;]/tbody/tr/td[6]/p/a[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9164, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 25b9e66b-52bc-422c-99e3-6acfe3dfec8c
+*** Element info: {Using=xpath, value=//*[@id=&apos;HackathonTable&apos;]/tbody/tr/td[6]/p/a[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;HackathonTable&apos;]/tbody/tr/td[6]/p/a[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9164, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 25b9e66b-52bc-422c-99e3-6acfe3dfec8c
+*** Element info: {Using=xpath, value=//*[@id=&apos;HackathonTable&apos;]/tbody/tr/td[6]/p/a[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:186)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.jug.qa.pages.MMInstHackathoPage.InstituteHackathonview(MMInstHackathoPage.java:25)
+	at com.jug.qa.InstituteTest.MMInstHackathonPageTest.instconsultancyview(MMInstHackathonPageTest.java:47)
+</failure>
+    <system-out>Before navigating to: &apos;http://www.jugaadfunda.in/&apos;
+Navigated to:&apos;http://www.jugaadfunda.in/&apos;
+Before navigating to: &apos;http://www.jugaadfunda.in/STBI/sig-login.jsp&apos;
+Navigated to:&apos;http://www.jugaadfunda.in/STBI/sig-login.jsp&apos;
+Trying to find Element By : By.xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a
+Found Element By : By.xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a
+Trying to click on: [[FirefoxDriver: firefox on XP (25b9e66b-52bc-422c-99e3-6acfe3dfec8c)] -&gt; xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a]
+Clicked on: [[FirefoxDriver: firefox on XP (25b9e66b-52bc-422c-99e3-6acfe3dfec8c)] -&gt; xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a]
+Trying to find Element By : By.linkText: Login as Institute
+Found Element By : By.linkText: Login as Institute
+Trying to click on: [[FirefoxDriver: firefox on XP (25b9e66b-52bc-422c-99e3-6acfe3dfec8c)] -&gt; link text: Login as Institute]
+Clicked on: [[FirefoxDriver: firefox on XP (25b9e66b-52bc-422c-99e3-6acfe3dfec8c)] -&gt; link text: Login as Institute]
+Trying to find Element By : By.xpath: //*[@id=&apos;email&apos;]
+Found Element By : By.xpath: //*[@id=&apos;email&apos;]
+Trying to find Element By : By.xpath: //*[@id=&apos;password&apos;]
+Found Element By : By.xpath: //*[@id=&apos;password&apos;]
+Trying to find Element By : By.xpath: //*[@id=&apos;login-institute&apos;]/div/form/div[4]/button[1]
+Found Element By : By.xpath: //*[@id=&apos;login-institute&apos;]/div/form/div[4]/button[1]
+Trying to click on: [[FirefoxDriver: firefox on XP (25b9e66b-52bc-422c-99e3-6acfe3dfec8c)] -&gt; xpath: //*[@id=&apos;login-institute&apos;]/div/form/div[4]/button[1]]
+Clicked on: [[FirefoxDriver: firefox on XP (25b9e66b-52bc-422c-99e3-6acfe3dfec8c)] -&gt; xpath: //*[@id=&apos;login-institute&apos;]/div/form/div[4]/button[1]]
+Trying to find Element By : By.xpath: //*[@id=&apos;myopportunitys&apos;]
+Found Element By : By.xpath: //*[@id=&apos;myopportunitys&apos;]
+Trying to click on: [[FirefoxDriver: firefox on XP (25b9e66b-52bc-422c-99e3-6acfe3dfec8c)] -&gt; xpath: //*[@id=&apos;myopportunitys&apos;]]
+Clicked on: [[FirefoxDriver: firefox on XP (25b9e66b-52bc-422c-99e3-6acfe3dfec8c)] -&gt; xpath: //*[@id=&apos;myopportunitys&apos;]]
+Trying to find Element By : By.xpath: //*[@id=&apos;hackathonss&apos;]
+Found Element By : By.xpath: //*[@id=&apos;hackathonss&apos;]
+Trying to click on: [[FirefoxDriver: firefox on XP (25b9e66b-52bc-422c-99e3-6acfe3dfec8c)] -&gt; xpath: //*[@id=&apos;hackathonss&apos;]]
+Clicked on: [[FirefoxDriver: firefox on XP (25b9e66b-52bc-422c-99e3-6acfe3dfec8c)] -&gt; xpath: //*[@id=&apos;hackathonss&apos;]]
+Trying to find Element By : By.xpath: //*[@id=&apos;HackathonTable&apos;]/tbody/tr/td[6]/p/a[1]
+Exception occured: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;HackathonTable&apos;]/tbody/tr/td[6]/p/a[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9164, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 25b9e66b-52bc-422c-99e3-6acfe3dfec8c
+*** Element info: {Using=xpath, value=//*[@id=&apos;HackathonTable&apos;]/tbody/tr/td[6]/p/a[1]}
+</system-out>
+    <system-err>1531225129577	Marionette	INFO	New connections will no longer be accepted
+[Child 9616] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9616] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531225131908	geckodriver	INFO	geckodriver 0.20.1
+1531225131921	geckodriver	INFO	Listening on 127.0.0.1:28229
+1531225132418	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile.swMFoYCXokyv&quot;
+1531225138994	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:269 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:739 &lt; startup()@resource://gre/modules/AddonManager.jsm:906 &lt; startup()@resource://gre/modules/AddonManager.jsm:3090 &lt; observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1531225140172	Marionette	INFO	Enabled via --marionette
+1531225143917	Marionette	INFO	Listening on port 60789
+1531225143989	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531225144027	Marionette	DEBUG	Register listener.js for window 4294967297
+Jul 10, 2018 5:49:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1531225144066	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;about:blank&quot;
+1531225144628	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;about:blank&quot;
+1531225144628	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;about:blank&quot;
+1531225146843	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225147717	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225147873	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225148169	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225148170	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225148822	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp&quot;
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 17: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 37: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 68: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 98: TypeError: $(...).tabs is not a function
+1531225150081	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp&quot;
+1531225150351	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1531225150416	Marionette	DEBUG	Received DOM event &quot;popstate&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-institute&quot;
+1531225150634	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1531225155614	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-institute&quot;
+1531225157384	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-institute&quot;
+1531225157385	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-institute&quot;
+1531225158181	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/STBI/institute-dashboard.jsp&quot;
+1531225158190	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/STBI/institute-dashboard.jsp&quot;
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 3: ReferenceError: places is not defined
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 17: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 37: TypeError: $(...).datepicker is not a function
+1531225158442	Marionette	DEBUG	Received DOM event &quot;popstate&quot; for &quot;http://www.jugaadfunda.in/STBI/institute-dashboard.jsp#/opportinity&quot;
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 68: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 98: TypeError: $(...).tabs is not a function
+1531225158660	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+1531225163505	Marionette	DEBUG	Received DOM event &quot;popstate&quot; for &quot;http://www.jugaadfunda.in/STBI/institute-dashboard.jsp#/halcathons&quot;
+1531225163722	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+</system-err>
+  </testcase>
+  <testcase classname="com.jug.qa.InstituteTest.MMInstideasFromInstitutePageTest" name="insttitle" time="1.078"/>
+  <testcase classname="com.jug.qa.InstituteTest.MMInstInternshipPageTest" name="instinternship" time="6.744"/>
+  <testcase classname="com.jug.qa.InstituteTest.MMInstListofStudentAppliedProjectPageTest" name="instprojectview" time="5.788"/>
+  <testcase classname="com.jug.qa.InstituteTest.MMInstliststudentinternshipPageTest" name="instinternshipview" time="0.032"/>
+  <testcase classname="com.jug.qa.InstituteTest.MMInstLoginPageTest" name="loginTest" time="0.058"/>
+  <testcase classname="com.jug.qa.InstituteTest.MMInstProfilePageTest" name="instprincipal" time="0.003"/>
+  <testcase classname="com.jug.qa.InstituteTest.MMInstProjectPageTest" name="instProjectview" time="0.955">
+    <failure message="Unable to locate element: //*[@id=&apos;ProjectTable&apos;]/tbody[1]/tr/td[6]/p/a[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14060, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e10ac0db-b12f-4261-a6ed-9196cc4fbd3b
+*** Element info: {Using=xpath, value=//*[@id=&apos;ProjectTable&apos;]/tbody[1]/tr/td[6]/p/a[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;ProjectTable&apos;]/tbody[1]/tr/td[6]/p/a[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14060, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e10ac0db-b12f-4261-a6ed-9196cc4fbd3b
+*** Element info: {Using=xpath, value=//*[@id=&apos;ProjectTable&apos;]/tbody[1]/tr/td[6]/p/a[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:186)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.jug.qa.pages.MMInstprojectPage.Instituteprojectview(MMInstprojectPage.java:27)
+	at com.jug.qa.InstituteTest.MMInstProjectPageTest.instProjectview(MMInstProjectPageTest.java:48)
+</failure>
+    <system-out>Before navigating to: &apos;http://www.jugaadfunda.in/&apos;
+Navigated to:&apos;http://www.jugaadfunda.in/&apos;
+Before navigating to: &apos;http://www.jugaadfunda.in/STBI/sig-login.jsp&apos;
+Navigated to:&apos;http://www.jugaadfunda.in/STBI/sig-login.jsp&apos;
+Trying to find Element By : By.xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a
+Found Element By : By.xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a
+Trying to click on: [[FirefoxDriver: firefox on XP (e10ac0db-b12f-4261-a6ed-9196cc4fbd3b)] -&gt; xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a]
+Clicked on: [[FirefoxDriver: firefox on XP (e10ac0db-b12f-4261-a6ed-9196cc4fbd3b)] -&gt; xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a]
+Trying to find Element By : By.linkText: Login as Institute
+Found Element By : By.linkText: Login as Institute
+Trying to click on: [[FirefoxDriver: firefox on XP (e10ac0db-b12f-4261-a6ed-9196cc4fbd3b)] -&gt; link text: Login as Institute]
+Clicked on: [[FirefoxDriver: firefox on XP (e10ac0db-b12f-4261-a6ed-9196cc4fbd3b)] -&gt; link text: Login as Institute]
+Trying to find Element By : By.xpath: //*[@id=&apos;email&apos;]
+Found Element By : By.xpath: //*[@id=&apos;email&apos;]
+Trying to find Element By : By.xpath: //*[@id=&apos;password&apos;]
+Found Element By : By.xpath: //*[@id=&apos;password&apos;]
+Trying to find Element By : By.xpath: //*[@id=&apos;login-institute&apos;]/div/form/div[4]/button[1]
+Found Element By : By.xpath: //*[@id=&apos;login-institute&apos;]/div/form/div[4]/button[1]
+Trying to click on: [[FirefoxDriver: firefox on XP (e10ac0db-b12f-4261-a6ed-9196cc4fbd3b)] -&gt; xpath: //*[@id=&apos;login-institute&apos;]/div/form/div[4]/button[1]]
+Clicked on: [[FirefoxDriver: firefox on XP (e10ac0db-b12f-4261-a6ed-9196cc4fbd3b)] -&gt; xpath: //*[@id=&apos;login-institute&apos;]/div/form/div[4]/button[1]]
+Trying to find Element By : By.xpath: //*[@id=&apos;myopportunitys&apos;]
+Found Element By : By.xpath: //*[@id=&apos;myopportunitys&apos;]
+Trying to click on: [[FirefoxDriver: firefox on XP (e10ac0db-b12f-4261-a6ed-9196cc4fbd3b)] -&gt; xpath: //*[@id=&apos;myopportunitys&apos;]]
+Clicked on: [[FirefoxDriver: firefox on XP (e10ac0db-b12f-4261-a6ed-9196cc4fbd3b)] -&gt; xpath: //*[@id=&apos;myopportunitys&apos;]]
+Trying to find Element By : By.xpath: //*[@id=&apos;projects&apos;]
+Found Element By : By.xpath: //*[@id=&apos;projects&apos;]
+Trying to click on: [[FirefoxDriver: firefox on XP (e10ac0db-b12f-4261-a6ed-9196cc4fbd3b)] -&gt; xpath: //*[@id=&apos;projects&apos;]]
+Clicked on: [[FirefoxDriver: firefox on XP (e10ac0db-b12f-4261-a6ed-9196cc4fbd3b)] -&gt; xpath: //*[@id=&apos;projects&apos;]]
+Trying to find Element By : By.xpath: //*[@id=&apos;ProjectTable&apos;]/tbody[1]/tr/td[6]/p/a[1]
+Exception occured: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;ProjectTable&apos;]/tbody[1]/tr/td[6]/p/a[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14060, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e10ac0db-b12f-4261-a6ed-9196cc4fbd3b
+*** Element info: {Using=xpath, value=//*[@id=&apos;ProjectTable&apos;]/tbody[1]/tr/td[6]/p/a[1]}
+</system-out>
+    <system-err>1531225401676	Marionette	INFO	New connections will no longer be accepted
+[Parent 8896] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14360] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1531225403356	geckodriver	INFO	geckodriver 0.20.1
+1531225403369	geckodriver	INFO	Listening on 127.0.0.1:36366
+1531225403806	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile.sPL2crQDfqyv&quot;
+1531225412092	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:269 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:739 &lt; startup()@resource://gre/modules/AddonManager.jsm:906 &lt; startup()@resource://gre/modules/AddonManager.jsm:3090 &lt; observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1531225413107	Marionette	INFO	Enabled via --marionette
+[Parent 14060] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12608] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531225416702	Marionette	INFO	Listening on port 61503
+1531225417531	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531225417569	Marionette	DEBUG	Register listener.js for window 4294967297
+Jul 10, 2018 5:53:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1531225417601	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;about:blank&quot;
+1531225418174	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;about:blank&quot;
+1531225418174	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;about:blank&quot;
+1531225420181	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225421007	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225421112	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225421425	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225421425	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225422100	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp&quot;
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 17: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 37: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 68: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 98: TypeError: $(...).tabs is not a function
+1531225422855	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp&quot;
+1531225423109	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1531225423174	Marionette	DEBUG	Received DOM event &quot;popstate&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-institute&quot;
+1531225423552	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1531225428568	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-institute&quot;
+1531225430439	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-institute&quot;
+1531225430439	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-institute&quot;
+1531225431053	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/STBI/institute-dashboard.jsp&quot;
+1531225431262	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfundJavaScript error: http://www.jugaadfunda.in/STBI/a.in/STBI/institute-dashboard.jsp&quot;
+js/city-navbar.js, line 3: ReferenceError: places is not defined
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 17: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 37: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 68: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 98: TypeError: $(...).tabs is not a function
+1531225431338	Marionette	DEBUG	Received DOM event &quot;popstate&quot; for &quot;http://www.jugaadfunda.in/STBI/institute-dashboard.jsp#/opportinity&quot;
+1531225431601	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+1531225439404	Marionette	DEBUG	Received DOM event &quot;popstate&quot; for &quot;http://www.jugaadfunda.in/STBI/institute-dashboard.jsp#/project&quot;
+1531225439805	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+</system-err>
+  </testcase>
+  <testcase classname="com.jug.qa.InstituteTest.SmepartnerPageTest" name="setUp" time="28.681">
+    <failure message="Element is not visible
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14188, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 619ec17f-4156-4af0-bf08-db12fb471937" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: Element is not visible
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14188, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 619ec17f-4156-4af0-bf08-db12fb471937
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:371)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:393)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.jug.qa.pages.MMInstLoginPage.login(MMInstLoginPage.java:49)
+	at com.jug.qa.InstituteTest.SmepartnerPageTest.setUp(SmepartnerPageTest.java:35)
+</failure>
+    <system-out>Before navigating to: &apos;http://www.jugaadfunda.in/&apos;
+Navigated to:&apos;http://www.jugaadfunda.in/&apos;
+Before navigating to: &apos;http://www.jugaadfunda.in/STBI/sig-login.jsp&apos;
+Navigated to:&apos;http://www.jugaadfunda.in/STBI/sig-login.jsp&apos;
+Trying to find Element By : By.xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a
+Found Element By : By.xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a
+Trying to click on: [[FirefoxDriver: firefox on XP (619ec17f-4156-4af0-bf08-db12fb471937)] -&gt; xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a]
+Clicked on: [[FirefoxDriver: firefox on XP (619ec17f-4156-4af0-bf08-db12fb471937)] -&gt; xpath: //*[@id=&apos;navbar3&apos;]/ul/li[1]/a]
+Trying to find Element By : By.linkText: Login as Institute
+Found Element By : By.linkText: Login as Institute
+Trying to click on: [[FirefoxDriver: firefox on XP (619ec17f-4156-4af0-bf08-db12fb471937)] -&gt; link text: Login as Institute]
+Clicked on: [[FirefoxDriver: firefox on XP (619ec17f-4156-4af0-bf08-db12fb471937)] -&gt; link text: Login as Institute]
+Trying to find Element By : By.xpath: //*[@id=&apos;email&apos;]
+Found Element By : By.xpath: //*[@id=&apos;email&apos;]
+Exception occured: org.openqa.selenium.ElementNotInteractableException: Element is not visible
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14188, moz:profile: C:\Users\Admin\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 619ec17f-4156-4af0-bf08-db12fb471937
+</system-out>
+    <system-err>1531225440370	Marionette	INFO	New connections will no longer be accepted
+[Parent 14060] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531225443804	geckodriver	INFO	geckodriver 0.20.1
+1531225443971	geckodriver	INFO	Listening on 127.0.0.1:2305
+1531225444010	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile.29zC41JY6gW4&quot;
+1531225452056	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:269 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:739 &lt; startup()@resource://gre/modules/AddonManager.jsm:906 &lt; startup()@resource://gre/modules/AddonManager.jsm:3090 &lt; observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1531225452873	Marionette	INFO	Enabled via --marionette
+[Parent 14188] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2208] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531225456523	Marionette	INFO	Listening on port 61609
+1531225456579	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531225456610	Marionette	DEBUG	Register listener.js for window 4294967297
+Jul 10, 2018 5:54:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1531225456642	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;about:blank&quot;
+1531225457442	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;about:blank&quot;
+1531225457442	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;about:blank&quot;
+1531225459880	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225460420	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225460467	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225460758	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225460758	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;http://www.jugaadfunda.in/&quot;
+1531225463586	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp&quot;
+1531225464368	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp&quot;
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 17: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 37: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 68: TypeError: $(...).datepicker is not a function
+JavaScript error: http://www.jugaadfunda.in/STBI/js/city-navbar.js, line 98: TypeError: $(...).tabs is not a function
+1531225467006	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1531225467083	Marionette	DEBUG	Received DOM event &quot;popstate&quot; for &quot;http://www.jugaadfunda.in/STBI/sig-login.jsp#/login-institute&quot;
+1531225467368	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+</system-err>
+  </testcase>
+  <testcase classname="com.jug.qa.InstituteTest.SmepartnerPageTest" name="instsmeview" time="28.682">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.jug.qa.InstituteTest.SmepartnerPageTest" name="teardown" time="28.682">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.jug.qa.SIGTest.GramTownPageTest" name="verifyGramTitle" time="5.698"/>
+  <testcase classname="com.jug.qa.SIGTest.IdeasSigTabTest" name="SIGifsigTitleTest" time="4.035"/>
+  <testcase classname="com.jug.qa.SIGTest.MMSConsultancyPageTest" name="verifyconsultancyTitle" time="1.779"/>
+  <testcase classname="com.jug.qa.SIGTest.MMSGrantsfundingpageTest" name="verifygrantsTitle" time="11.109"/>
+  <testcase classname="com.jug.qa.SIGTest.MMSHackathonsPageTest" name="verifyhackathonsTitle" time="11.196"/>
+  <testcase classname="com.jug.qa.SIGTest.MMSLoginPageTest" name="loginTest" time="13.621"/>
+</testsuite>

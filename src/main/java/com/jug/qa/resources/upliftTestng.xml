@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jugaadfundat Portal Testsuite">
+
+	<listeners>
+		<listener class-name="com.jug.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	<test name="JGFt Test Cases">
+		<classes>
+			<class name="com.jug.qa.uplifttestcases.upliftLoginPageTest"></class>
+			<class name="com.jug.qa.uplifttestcases.upliftpostmychallengesPageTest"></class>
+			<class name="com.jug.qa.uplifttestcases.upliftMyOpportunityPageTest"></class>
+			
+			<class name="com.jug.qa.uplifttestcases.upliftViewResponsePageTest"></class>
+			
+			<class name="com.jug.qa.uplifttestcases.upliftMyProfilePageTest"></class>
+			
+			
+
+		</classes>
+	</test>
+</suite>

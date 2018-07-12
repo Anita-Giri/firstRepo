@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.jug.qa.InstituteTest.MMInstGrantsPageTest">
+        <methods>
+          <include name="instGrantsview"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.jug.qa.InstituteTest.MMInstGrantsPageTest -->
+      <class name="com.jug.qa.InstituteTest.MMInstConsultancyPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="instconsultancyview"/>
+        </methods>
+      </class> <!-- com.jug.qa.InstituteTest.MMInstConsultancyPageTest -->
+      <class name="com.jug.qa.uplift.upliftMyProfilePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="grampa" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.jug.qa.uplift.upliftMyProfilePageTest -->
+      <class name="com.jug.qa.uplift.upliftViewResponsePageTest">
+        <methods>
+          <include name="upliftviewprofile"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jug.qa.uplift.upliftViewResponsePageTest -->
+      <class name="com.jug.qa.InstituteTest.MMInstProjectPageTest">
+        <methods>
+          <include name="instProjectview"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jug.qa.InstituteTest.MMInstProjectPageTest -->
+      <class name="com.jug.qa.InstituteTest.SmepartnerPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="instsmeview"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jug.qa.InstituteTest.SmepartnerPageTest -->
+      <class name="com.jug.qa.UpgradeTest.UpgradeLoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.jug.qa.UpgradeTest.UpgradeLoginPageTest -->
+      <class name="com.jug.qa.InstituteTest.MMInstHackathonPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="instconsultancyview"/>
+        </methods>
+      </class> <!-- com.jug.qa.InstituteTest.MMInstHackathonPageTest -->
+      <class name="com.jug.qa.IncubationTest.MMIncConsultancyPageTest">
+        <methods>
+          <include name="IncubationConsultancytitle"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jug.qa.IncubationTest.MMIncConsultancyPageTest -->
+      <class name="com.jug.qa.IncubationTest.MMIncLoginlinkPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.jug.qa.IncubationTest.MMIncLoginlinkPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

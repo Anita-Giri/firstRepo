@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jugaadfunda Portal Testsuite">
+
+	<listeners>
+		<listener class-name="com.jug.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	<test name="JGF Test Cases">
+		<classes>
+			<class name="com.jug.qa.testcases.UpgradeLoginPageTest"></class>
+			<class name="com.jug.qa.testcases.UpgradeDashboardPageTest"></class>
+			<class name="com.jug.qa.testcases.UpgradeEventPageTest"></class>
+		
+			
+			
+
+
+		</classes>
+	</test>
+</suite>

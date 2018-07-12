@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite (4)]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.jug.qa.uplift.upliftMyProfilePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="grampa" invocation-numbers="0"/>
+          <include name="coordinatordetails" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.jug.qa.uplift.upliftMyProfilePageTest -->
+      <class name="com.jug.qa.uplift.upliftViewResponsePageTest">
+        <methods>
+          <include name="upliftviewprofile"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jug.qa.uplift.upliftViewResponsePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (4)] -->

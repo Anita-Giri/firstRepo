@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <suite-files>
+<suite-file path="SIGtestng.xml"></suite-file>
+<suite-file path="Institutetestng.xml"></suite-file>
+<suite-file path="Incubationtestng.xml"></suite-file>
+<suite-file path="Upgradetestng.xml"></suite-file>
+<suite-file path="uplifttestng.xml"></suite-file>
+ </suite-files>
+  
+</suite> <!-- Suite -->

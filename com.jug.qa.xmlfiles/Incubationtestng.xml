@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    <!--   <class name="com.jug.qa.IncubationTest.MMIncMyProfilePageTest"/>
+      <class name="com.jug.qa.IncubationTest.MMIncHackathonPageTest"/>
+      <class name="com.jug.qa.IncubationTest.MMIncIdeasFromIncubationPageTest"/>
+      <class name="com.jug.qa.IncubationTest.MMIncGrantsfundingPageTest"/>
+      <class name="com.jug.qa.IncubationTest.MMIncConsultancyPageTest"/>
+      <class name="com.jug.qa.IncubationTest.MMIncProjectPageTest"/>
+      <class name="com.jug.qa.IncubationTest.MMIncLoginlinkPageTest"/> -->
+      
+      		<class name="com.jug.qa.IncubationTest.MMIncLoginlinkPageTest"></class>
+			<class name="com.jug.qa.IncubationTest.MMIncIdeasFromIncubationPageTest"></class>
+			<class name="com.jug.qa.IncubationTest.MMIncProjectPageTest"></class>
+			<class name="com.jug.qa.IncubationTest.MMIncGrantsfundingPageTest"></class>
+			<class name="com.jug.qa.IncubationTest.MMIncConsultancyPageTest"></class>
+			<class name="com.jug.qa.IncubationTest.MMIncHackathonPageTest"></class>
+			<class name="com.jug.qa.IncubationTest.MMIncMyProfilePageTest"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

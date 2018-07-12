@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="1" name="Test Sample Suite" parallel="false">
+  <test name="aia Pod" preserve-order="true" annotations="JDK">
+  
+	<listeners>
+		<listener class-name="com.jug.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	<!-- <test name="JGF Test Cases"> -->
+		<classes>
+			<class name="com.jug.qa.testcases.MMSRegistrationlinkTest"></class>
+			<class name="com.jug.qa.testcases.MMSLoginPageTest"></class>
+			<class name="com.jug.qa.testcases.MMSdashboardTest"></class>
+			<class name="com.jug.qa.testcases.IdeasSigTabTest"></class>
+			<class name="com.jug.qa.testcases.IdeasMysupportTest"></class>
+		
+			<class name="com.jug.qa.testcases.MMSProjectPageTest"></class>
+			<class name="com.jug.qa.testcases.MMSGrantsfundingpageTest"></class>
+			<class name="com.jug.qa.testcases.MMSConsultancyPageTest"></class>
+			<class name="com.jug.qa.testcases.MMSHackathonsPageTest"></class>
+			<class name="com.jug.qa.testcases.GramTownPageTest"></class>
+			<class name="com.jug.qa.testcases.MyProfilePageTest"></class>
+			<class name="com.jug.qa.testcases.SIGLogoutTest"></class>
+			
+			<!-- For Institute -->
+			
+			<class name="com.jug.qa.testcases.MMInstLoginPageTest"></class>
+			<class name="com.jug.qa.testcases.MMInstideasFromInstitutePageTest"></class>
+			<class name="com.jug.qa.testcases.MMInstInternshipPageTest"></class>
+			<class name="com.jug.qa.testcases.MMInstProjectPageTest"></class>
+			<class name="com.jug.qa.testcases.MMInstConsultancyPageTest"></class>
+			<class name="com.jug.qa.testcases.MMInstGrantsPageTest"></class>
+			<class name="com.jug.qa.testcases.MMInstHackathonPageTest"></class>
+			<class name="com.jug.qa.testcases.SmepartnerPageTest"></class>
+			<class name="com.jug.qa.testcases.MMInstliststudentinternshipPageTest"></class>
+			<class name="com.jug.qa.testcases.MMInstListofStudentAppliedProjectPageTest"></class>
+			<class name="com.jug.qa.testcases.MMInstProfilePageTest"></class>
+			
+			
+			<!-- For Incubation -->
+			
+			<class name="com.jug.qa.testcases.MMIncLoginlinkPageTest"></class>
+			<class name="com.jug.qa.testcases.MMIncIdeasFromIncubationPageTest"></class>
+			<class name="com.jug.qa.testcases.MMIncProjectPageTest"></class>
+			<class name="com.jug.qa.testcases.MMIncGrantsfundingPageTest"></class>
+			<class name="com.jug.qa.testcases.MMIncConsultancyPageTest"></class>
+			<class name="com.jug.qa.testcases.MMIncHackathonPageTest"></class>
+			<class name="com.jug.qa.testcases.MMIncMyProfilePageTest"></class>
+			
+			<!-- For Upgrade My Skills-->
+			
+			<class name="com.jug.qa.testcases.UpgradeLoginPageTest"></class>
+			<class name="com.jug.qa.testcases.UpgradeDashboardPageTest"></class>
+			<class name="com.jug.qa.testcases.UpgradeEventPageTest"></class>
+			
+				<!-- For Uplift Town-->
+				
+			<class name="com.jug.qa.uplifttestcases.upliftLoginPageTest"></class>
+			<class name="com.jug.qa.uplifttestcases.upliftpostmychallengesPageTest"></class>
+			<class name="com.jug.qa.uplifttestcases.upliftMyOpportunityPageTest"></class>
+			<class name="com.jug.qa.uplifttestcases.upliftViewResponsePageTest"></class>
+			<class name="com.jug.qa.uplifttestcases.upliftMyProfilePageTest"></class>
+			
+
+
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jugaadfundat Portal Testsuite">
+
+	<listeners>
+		<listener class-name="com.jug.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	<test name="JGFt Test Cases">
+		<classes>
+			<class name="com.jug.qa.testcases.MMInstLoginPageTest"></class>
+			<class name="com.jug.qa.testcases.MMInstideasFromInstitutePageTest"></class>
+			<class name="com.jug.qa.testcases.MMInstInternshipPageTest"></class>
+			<class name="com.jug.qa.testcases.MMInstProjectPageTest"></class>
+			<class name="com.jug.qa.testcases.MMInstConsultancyPageTest"></class>
+			<class name="com.jug.qa.testcases.MMInstGrantsPageTest"></class>
+			<class name="com.jug.qa.testcases.MMInstHackathonPageTest"></class>
+			<class name="com.jug.qa.testcases.SmepartnerPageTest"></class>
+			<class name="com.jug.qa.testcases.MMInstliststudentinternshipPageTest"></class>
+			<class name="com.jug.qa.testcases.MMInstListofStudentAppliedProjectPageTest"></class>
+			<class name="com.jug.qa.testcases.MMInstProfilePageTest"></class>
+			
+			
+			
+
+		</classes>
+	</test>
+</suite>

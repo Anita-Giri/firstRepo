@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite (1)]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.jug.qa.InstituteTest.MMInstInternshipPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="instdelete"/>
+        </methods>
+      </class> <!-- com.jug.qa.InstituteTest.MMInstInternshipPageTest -->
+      <class name="com.jug.qa.InstituteTest.MMInstGrantsPageTest">
+        <methods>
+          <include name="instGrantsview"/>
+          <include name="instGrantsdelete"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.jug.qa.InstituteTest.MMInstGrantsPageTest -->
+      <class name="com.jug.qa.InstituteTest.MMInstProjectPageTest">
+        <methods>
+          <include name="instProjectview"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="instdelete"/>
+        </methods>
+      </class> <!-- com.jug.qa.InstituteTest.MMInstProjectPageTest -->
+      <class name="com.jug.qa.InstituteTest.MMInstHackathonPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="instconsultancyview"/>
+          <include name="instConsultancydelete"/>
+        </methods>
+      </class> <!-- com.jug.qa.InstituteTest.MMInstHackathonPageTest -->
+      <class name="com.jug.qa.InstituteTest.MMInstConsultancyPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="instConsultancydelete"/>
+          <include name="instconsultancyview"/>
+        </methods>
+      </class> <!-- com.jug.qa.InstituteTest.MMInstConsultancyPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (1)] -->
