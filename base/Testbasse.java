@@ -24,7 +24,7 @@ public class Testbasse {
 		
 			prop = new Properties();
 
-                                                                   prop1 = new Properties();// new change which need to delete
+                                                                 
 			FileInputStream ip = new FileInputStream("D://Automation Testing//jugaadfunda//src//main//java//com//jug"+ "//qa//config//config.properties");
 					
 					/*System.getProperty("user.dir")+ "/src/main/java/com/crm"
